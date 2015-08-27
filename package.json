@@ -1,0 +1,33 @@
+{
+    "name": "node-travis-karma-jasmine",
+    "version": "1.0.0",
+    "description": "starter point for quick node testing with travis karma and jasmine",
+    "main": "main.js",
+    "scripts": {
+        "test": "./node_modules/karma/bin/karma spec/main-spec.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/6footGeek/node-travis-karma-jasmine.git"
+    },
+    "keywords": [
+        "travis",
+        "node",
+        "karma",
+        "jasmine",
+        "project"
+    ],
+    "author": "6footgeek",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/6footGeek/node-travis-karma-jasmine/issues"
+    },
+    "homepage": "https://github.com/6footGeek/node-travis-karma-jasmine#readme",
+    "devDependencies": {
+        "jasmine-core": "^2.3.2",
+        "karma": "^0.12.31",
+        "karma-firefox-launcher": "^0.1.4",
+        "karma-jasmine": "^0.3.5"
+
+    }
+}
